@@ -23,6 +23,8 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "engineer-test-gem.gemspec",
+     "engineer_test_fibonacci.gemspec",
      "lib/engineer-test-gem.rb",
      "test/engineer-test-gem_test.rb",
      "test/test_helper.rb"
