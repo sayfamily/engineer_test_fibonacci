@@ -4,9 +4,9 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "engineer-test-gem"
-    gem.summary = %Q{TODO: Engineer Test}
-    gem.description = %Q{TODO: Engineer Test}
+    gem.name = "engineer_test_fibonacci"
+    gem.summary = %Q{Engineer Test}
+    gem.description = %Q{Engineer Test}
     gem.email = "sayfamily@gmail.com"
     gem.homepage = "http://github.com/sayfamily/engineer-test-gem"
     gem.authors = ["Paul"]
@@ -41,7 +41,7 @@ task :test => :check_dependencies
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   if File.exist?('VERSION')
     version = File.read('VERSION')
